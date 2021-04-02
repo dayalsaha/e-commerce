@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face{
+    font-family: "PlayfairDisplay";
+    src: url(font/PlayfairDisplay-VariableFont_wght.ttf) format(ttf);
+}
+
+*{
+    padding: 0;
+    margin:0; 
+}
+
+body {
+   
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-size: 14.5px;
+    line-height: 1.3;
+}
+
+h1{
+    font-family: "PlayfairDisplay";
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1239px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*-------------------------------header section start---------------------------------------*/ 
+
+header{
+    background: white;
+    width: 100%;
+    float: left;
+}
+
+.topbar{
+    background: #FF5450;
+}
+
+.topbar p {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding: 7px 0px;
+    font-weight: 500;
+}
+
+.navbar-one {
+    width: 100%;
+    float: left;
+    margin: 17px 0;
+}
+
+.menu-left{
+    width: 33%;
+}
+
+.menu-left ul li{
+    display: inline-block;
+}
+
+.menu-left ul li a {
+    color: black;
+    font-weight: 500;
+    margin-left: 16px;
+    transition: .5s ease;
+    font-size: 13px;
+}
+
+.menu-left ul li a:hover {
+    color: #0000005e;
+    
+}
+
+.menu-img{
+    width: 33%;
+}
+
+.menu-right-icons{
+    width: 33%;
+}
+
+.menu-img img {
+    width: 156px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-right-icons ul{
+    text-align: right;
+}
+
+.menu-right-icons ul li{
+    display: inline-block;
+}
+
+.menu-right-icons ul li a {
+    color: #00000094;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 16px;
+    transition: .4s ease;
+}
+
+.menu-right-icons ul li a:hover {
+    color: #0000005e;
+}
+
+.navbar-two {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+
+.menu-middle{
+
+}
+
+.menu-middle ul {
+    text-align: center;
+}
+
+
+.menu-middle ul li {
+    display: inline-block;
+    position: relative;
+    
+    margin-right: 12px;
+   
+}
+
+.menu-middle ul li a{
+    color: black;
+   
+   
+}
+
+.menu-middle ul li::after {
+    content: "";
+    position: absolute;
+    background: black;
+    height: 1px;
+    left: 0;
+    width: 0;
+    bottom: -4px;
+    transition: .5s ease;
+}
+
+.menu-middle ul li:hover::after {
+        width: 100%;
+}
+
+/*----------------------------------header section close---------------------------------------*/ 
+
+/*----------------------------------hero section start---------------------------------------*/ 
+
+.hero{
+   width: 100%;
+   float: left;
+   padding-bottom: 15px;
+}
+
+.bg {
+    display: block;
+    background: url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading-div {
+    padding: 140px 0;
+    color: white;
+    margin-left: 100px;
+}
+
+.heading-div h1 {
+    font-family: "PlayfairDisply";
+    font-size: 55px;
+    font-weight: 300;
+    width: 295px;
+    line-height: 55px;
+}
+
+
+.heading-div p {
+    margin: 18px 0;
+    font-size: 20px;
+}
+
+
+.heading-div a {
+    color: white;
+    background: black;
+    width: 80px;
+    padding: 12px 23px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.heading-div a:hover {
+    color: white;
+       background: #353b48; 
+       transition: .5s ease;
+}
+/*----------------------------------hero section close---------------------------------------*/
+
+
+/*----------------------------------catagory section start----------------------------------*/ 
+
+.catagory{
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.c-heading{
+
+}
+
+.c-heading h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.c-item {
+    width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
+   
+}
+
+.c-img {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.c-item:hover img {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.c-item h4 {
+    margin: 10px 0;
+}
+
+.c-item p{
+
+
+}
+
+
+
+/*----------------------------------catagory section start----------------------------------*/ 
+
+
+/*----------------------------------round section start----------------------------------*/ 
+
+
+.round {
+    width: 100%;
+    float: left;
+    padding: 22px 0;
+}
+
+.bgcolor{
+    background: #D0E4F3;
+}
+
+.heading-div-two {
+    padding: 140px 0;
+    color: black; 
+    margin-left: 100px;
+    
+    width: 40%;
+}
+
+.heading-div-two h1 {
+    font-family: "PlayfairDisply";
+    font-size: 53px;
+    font-weight: 300;
+    width: 295px;
+    line-height: 55px;
+    margin-left: 78px;
+}
+
+.heading-div-two p {
+    margin: 18px 0;
+    font-size: 20px;
+}
+
+.heading-div-two a {
+    color: white;
+    background: black;
+    width: 80px;
+    padding: 12px 23px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+.heading-div-two a:hover {
+    color: white;
+       background: #353b48; 
+       transition: .5s ease;
+}
+
+
+
+/*----------------------------------round section close----------------------------------*/ 
+
+/*----------------------------------women section start----------------------------------*/ 
+
+.women{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+/*----------------------------------women section close----------------------------------*/ 
+
+/*----------------------------------deal section close----------------------------------*/ 
+.deal{
+    width: 100%;
+    float: left;
+    padding: 22px 0;
+    
+}
+
+.bcolor{
+    background: #E6CEFE;
+}
+
+.heading-div-three {
+    padding: 140px 0;
+    color: black; 
+    margin-left: 100px;
+    width: 40%;
+}
+
+.heading-div-three h1 {
+    font-family: "PlayfairDisply";
+    font-size: 53px;
+    font-weight: 300;
+    width: 295px;
+    line-height: 55px;
+    margin-left: 78px;
+    text-align: center;
+}
+
+.heading-div-three p{
+    margin: 18px 0;
+    font-size: 20px;
+    text-align:center;
+}
+
+.input-btn {
+    width: 462px;
+    text-align: center;
+}
+
+.heading-div-three input{
+
+}
+
+.form-control {
+    width: 16%;
+    padding: 13px;
+    outline: none;
+}
+
+.colorc {
+    background: #895AB7;
+    cursor: pointer;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
+/*----------------------------------deal section close----------------------------------*/ 
+
+
+/*-----------------------------------upadate section start-------------------------------*/
+
+.update{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.u-item {
+    width: 48%;
+    margin-right: 3%;
+}
+
+.u-img{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.u-item:hover img{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.u-item p {
+    margin: 10px;
+}
+
+.u-item p a {
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.u-item p a:hover {
+
+    color: #353b48; 
+
+}
+
+.mrgn{
+    margin-right: 0px;
+}
+
+.u-heading h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.small-size {
+    color: black;
+    font-size: 12px;
+    margin: 10px 0;
+    display: block;
+    margin-left: 10px;
+}
+
+.small-size:hover {
+      color: rgb(85, 40, 209);  
+      transition: .5s ease;
+}
+
+.underline {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #00000096;
+    font-size: 13px;
+}
+
+.u-item span {
+    border-bottom: 1px solid #0000003d;
+    width: 11%;
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/*-----------------------------------upadate section start-------------------------------*/
+
+
+/*-----------------------------------find section start-------------------------------*/
+
+.find{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+
+.f-heading h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.f-heading p {
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.f-item {
+    width: 24%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.little-boy{
+    margin-left: 0px;
+}
+
+
+/*-----------------------------------find section close-------------------------------*/
+
+
+/*------------------------------------footer section start-----------------------------*/ 
+
+footer{
+    width: 100%;
+    float: left;
+}
+
+.footer-bg {
+    width: 100%;
+    float: left;
+    background-color: #001E42;
+    padding: 46px 0;
+}
+
+.f-left {
+    width: 25%;
+    margin-left: 48px;
+}
+
+.f-left p {
+    color: white;
+    width: 328px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.f-logo {
+    width: 120px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.f-logo-items{
+    width: 100%;
+    float: left;
+}
+
+.f-logo-item {
+    width: 16%;
+    margin-right: 19px;
+}
+
+.flogo-item img{
+   
+}
+
+.f-mid{
+    width: 40%;
+}
+
+.f-mid-item {
+    width: 30%;
+    margin-left: 3%;
+}
+
+.f-mid-item h3 {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.f-mid-item ul li {
+    margin-top: 20px;
+    position: relative;
+    display: block;
+    font-size: 13px;
+}
+
+.f-mid-item ul li.active a{
+    color: blue;
+}
+
+.f-mid-item ul li a{
+    
+}
+
+.f-mid-item ul li a:hover {
+    color: blue;
+}
+.f-mid-item ul li::after {
+    content: "";
+    position: absolute;
+    background: blue;
+    width: 0;
+    height: 1px;
+    left: 0;
+    transition: .5s ease;
+    bottom: -5px;
+}
+
+.f-mid-item ul li:hover::after{
+    width: 30%;
+    
+}
+
+
+.f-mid-item ul li a{
+    color: white;
+}
+
+.f-right{
+    width: 25%;
+}
+
+.f-right h3{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.f-right p {
+    color: white;
+    margin-top: 39px;
+}
+
+.f-right span {
+    border-bottom: 1px solid white;
+    display: block;
+    margin-top: 5px;
+}
+
+.f-right-icons {
+    margin-top: 10px;
+}
+
+.f-right-icons ul li{
+    display: inline-block;
+}
+
+.f-right-icons ul li a {
+    color: white;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+.f-right-icons ul li a:hover {
+    color: blue;
+    transition: .5s ease;
+}
+
+
+
+/*------------------------------------footer section close-----------------------------*/ 
